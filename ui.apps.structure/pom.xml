@@ -7,7 +7,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>aem-guides-wknd</artifactId>
+        <artifactId>aem-guides-kf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,9 +15,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
+    <artifactId>aem-guides-kf.ui.apps.structure</artifactId>
     <packaging>content-package</packaging>
-    <name>WKND Sites Project - Repository Structure Package</name>
+    <name>Korn Ferry - Repository Structure Package</name>
     <description>
         Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.
         Any roots in the Code packages of this project should have their parent enumerated in the Filters list below.
@@ -35,7 +35,7 @@
                     <filters>
                         <!-- /apps root -->
                         <filter><root>/apps</root></filter>
-                        <filter><root>/apps/wknd</root></filter>
+                        <filter><root>/apps/kf</root></filter>
 
                         <!-- Common overlay roots -->
                         <filter><root>/apps/sling</root></filter>
@@ -48,7 +48,7 @@
                         <filter><root>/apps/settings</root></filter>
 
                         <!-- DAM folder root, will be created via repoinit -->
-                        <filter><root>/content/dam/wknd</root></filter>
+                        <filter><root>/content/dam/kf</root></filter>
 
                     </filters>
                 </configuration>

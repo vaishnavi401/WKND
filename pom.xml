@@ -19,15 +19,15 @@
       
   <groupId>com.adobe.aem.guides</groupId>
       
-  <artifactId>aem-guides-wknd</artifactId>
+  <artifactId>aem-guides-kf</artifactId>
       
   <packaging>pom</packaging>
       
   <version>0.0.1-SNAPSHOT</version>
       
-  <name>WKND Sites Project</name>
+  <name>Korn Ferry</name>
       
-  <description>WKND Sites Project</description>
+  <description>Korn Ferry</description>
       
   <modules>
             
@@ -85,7 +85,7 @@
             
     <aemanalyser.version>1.4.10</aemanalyser.version>
             
-    <componentGroupName>WKND Sites Project</componentGroupName>
+    <componentGroupName>Korn Ferry</componentGroupName>
         
   </properties>
       
@@ -229,7 +229,7 @@
                               
           <configuration>
                                     
-            <nodeVersion>v20.0.0</nodeVersion>
+            <nodeVersion>v24.16.0</nodeVersion>
                                     
             <npmVersion>8.15.0</npmVersion>
                                 

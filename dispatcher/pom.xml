@@ -8,15 +8,15 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>aem-guides-wknd</artifactId>
+        <artifactId>aem-guides-kf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>aem-guides-wknd.dispatcher.cloud</artifactId>
+    <artifactId>aem-guides-kf.dispatcher.cloud</artifactId>
     <packaging>pom</packaging>
-    <name>WKND Sites Project - Dispatcher</name>
-    <description>HTTP &amp; Dispatcher configurations for WKND Sites Project</description>
+    <name>Korn Ferry - Dispatcher</name>
+    <description>HTTP &amp; Dispatcher configurations for Korn Ferry</description>
 
     <build>
         <plugins>

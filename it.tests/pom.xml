@@ -19,14 +19,14 @@
 
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>aem-guides-wknd</artifactId>
+        <artifactId>aem-guides-kf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>aem-guides-wknd.it.tests</artifactId>
-    <name>WKND Sites Project - Integration Tests</name>
-    <description>Integration Tests for WKND Sites Project</description>
+    <artifactId>aem-guides-kf.it.tests</artifactId>
+    <name>Korn Ferry - Integration Tests</name>
+    <description>Integration Tests for Korn Ferry</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
